@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/listViewId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="mehedi hassan"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/allah4"
+        android:textStyle="bold"
+        android:fontFamily="@font/nikosh"
+        android:background="@drawable/custom_button"
+        android:gravity="center_vertical"
+        android:padding="15dp"/>
+
+
+</LinearLayout>

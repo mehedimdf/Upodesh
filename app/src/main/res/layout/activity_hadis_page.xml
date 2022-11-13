@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img3"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".HadisPage">
+
+    <LinearLayout
+        android:paddingTop="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/bukhariId"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:text="সহীহ বুখারী"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="@drawable/custom_button"
+        android:drawableTop="@drawable/bukhari2"
+        android:paddingTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/muslimId"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:text="সহীহ মুসলিম"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/custom_button"
+        android:drawableTop="@drawable/tirmigi"
+        android:paddingTop="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/dawudId"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:text="আবূ দাউদ"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/abudawood"
+            android:paddingTop="20dp"/>
+
+
+        <Button
+            android:id="@+id/nasayeId"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:text="নাসাঈ শরীফ"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/nasaye"
+            android:paddingTop="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/tirmijiId"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:text="তিরমিজি"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/tirmigi"
+            android:paddingTop="20dp"/>
+
+
+        <Button
+            android:id="@+id/ibnemajaId"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:text="ইবনু মাজাহ"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/ibnemaja"
+            android:paddingTop="20dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

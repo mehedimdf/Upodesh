@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img3"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_button"
+        android:weightSum="8">
+        <ImageView
+            android:id="@+id/quraniconId"
+            android:layout_weight="2"
+            android:layout_width="40dp"
+            android:padding="8dp"
+            android:layout_height="70dp"
+            android:src="@drawable/star2"/>
+        <LinearLayout
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+
+                android:id="@+id/headerNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আল ফাতিহা"
+                android:fontFamily="@font/nikosh"
+                android:textSize="25dp"
+                android:textColor="#FFFDFD"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/subNameId"
+                android:text="আয়াত সংখ্যা- ৭ মক্কা"
+                android:textSize="15dp"
+                android:fontFamily="@font/shamim"
+                android:gravity="center"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="3dp"
+            android:src="@drawable/abc2"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

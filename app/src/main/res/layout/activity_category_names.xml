@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img3"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="8"
+    android:padding="20dp"
+    tools:context=".CategoryNames">
+
+    <Button
+        android:id="@+id/allaherNameId"
+        android:layout_weight="1"
+        android:layout_width="350sp"
+        android:layout_height="60sp"
+        android:text="@string/allaher_Button_name"
+        android:textSize="25sp"
+        android:fontFamily="@font/shamim"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/allah"/>
+
+    <Button
+        android:id="@+id/namajerTimeId"
+        android:layout_weight="1"
+        android:layout_width="350sp"
+        android:layout_height="60sp"
+        android:text="@string/namajer_Time_Button_name"
+        android:textSize="25sp"
+        android:fontFamily="@font/shamim"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/time"/>
+
+    <Button
+        android:id="@+id/namajerNiyomId"
+        android:layout_weight="1"
+        android:layout_width="350sp"
+        android:layout_height="60sp"
+        android:text="@string/namajer_Niyom_Button_name"
+        android:textSize="25sp"
+        android:fontFamily="@font/shamim"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/shalat"/>
+
+    <Button
+        android:id="@+id/ojurNiyomId"
+        android:layout_weight="1"
+        android:layout_width="350sp"
+        android:layout_height="60sp"
+        android:text="@string/ojur_Niyom_Button_name"
+        android:fontFamily="@font/shamim"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/wudu"/>
+
+    <Button
+        android:id="@+id/gosolerNiyomId"
+        android:layout_weight="1"
+        android:layout_width="350sp"
+        android:layout_height="60sp"
+        android:text="@string/gosoler_Niyom_Button_name"
+        android:fontFamily="@font/shamim"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/shower1"/>
+
+    <Button
+        android:id="@+id/kalimaId"
+        android:layout_weight="1"
+        android:layout_width="350sp"
+        android:layout_height="60sp"
+        android:text="@string/kalima_Button_name"
+        android:fontFamily="@font/shamim"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/prayer"/>
+
+    <Button
+        android:id="@+id/hadisId"
+        android:layout_weight="1"
+        android:layout_width="350dp"
+        android:layout_height="60sp"
+        android:text="@string/hadis_Button_name"
+        android:fontFamily="@font/shamim"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/hadis"/>
+
+    <Button
+        android:id="@+id/quranId"
+        android:layout_weight="1"
+        android:layout_width="350sp"
+        android:layout_height="60sp"
+        android:text="@string/quran_Button_name"
+        android:fontFamily="@font/shamim"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/quran"/>
+
+
+</LinearLayout>

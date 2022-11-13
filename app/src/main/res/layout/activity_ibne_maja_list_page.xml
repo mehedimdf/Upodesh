@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img3"
+    tools:context=".IbneMajaListPage">
+
+    <ListView
+        android:paddingTop="20dp"
+        android:layout_margin="15dp"
+        android:id="@+id/ibnemajalistViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00FFFFFF"
+        android:dividerHeight="6dp"
+        android:listSelector="@drawable/btn_custom"
+        />
+
+
+</LinearLayout>
